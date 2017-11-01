@@ -7,7 +7,7 @@ namespace SHOPSTYLE
 {
 	public partial class ProductDetail : ContentPage
 	{
-		public ProductDetail()
+		public ProductDetail(string group)
 		{
 			InitializeComponent();
 		}

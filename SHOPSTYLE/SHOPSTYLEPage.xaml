@@ -7,8 +7,7 @@
 		xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
 		xmlns:TelerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
         xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
-		x:Class="SHOPSTYLE.SHOPSTYLEPage"
-		>
+		x:Class="SHOPSTYLE.SHOPSTYLEPage">
 
 	<Grid Grid.ColumnSpacing="0" Grid.RowSpacing="0">
     <Grid Grid.ColumnSpacing="0" Grid.RowSpacing="0" >

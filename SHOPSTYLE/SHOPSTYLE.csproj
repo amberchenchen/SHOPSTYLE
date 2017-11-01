@@ -47,6 +47,7 @@
     <Compile Include="ProductDetail.xaml.cs">
       <DependentUpon>ProductDetail.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ProductDetailViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Telerik.Documents.SpreadsheetStreaming">

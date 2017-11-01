@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using Telerik.XamarinForms.DataControls;
 using Telerik.XamarinForms.DataControls.ListView;
 using Xamarin.Forms;
 
@@ -49,7 +51,13 @@ namespace SHOPSTYLE
 		{
 			if (e.Action == System.Collections.Specialized.NotifyCollectionChangedAction.Add)
 			{
-				Navigation.PushAsync(new ProductDetail());
+				var group = "";
+				if ((((RadListView)sender).SelectedItem) != null)
+				{
+					group = ((Recipe)(((RadListView)sender).SelectedItem)).Group;
+					Debug.WriteLine(((Recipe)(((RadListView)sender).SelectedItem)).Group);
+				}
+				Navigation.PushAsync(new ProductDetail(group));
 			}
 		}
 	}

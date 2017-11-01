@@ -28,14 +28,14 @@ namespace SHOPSTYLE
 
 			this.Recipes = new ObservableCollection<Recipe>()
 			{
-				new Recipe("original.png", "Leather Bag", "$20000", "bag"),
-				new Recipe("clutch.png", "Clutch Bag", "$30000", "bag"),
-				new Recipe("clutchBlue.png", "Clutch Blue Bag", "$30000", "bag"),
-				new Recipe("weekender.png", "Weekender Bag", "$40000", "bag"),
-				new Recipe("weekenderBlack.png", "Weekender Black Bag", "$50000", "bag"),
-				new Recipe("messengerbag.png", "Messenger Bag", "$32000", "bag"),
-				new Recipe("backpack.png", "Back Pack", "$60000", "bah"),
-				new Recipe("documentholder.png", "Document Holder", "$70000", "bag")
+				new Recipe("original.png", "Leather Bag", "$20000", "1"),
+				new Recipe("clutch.png", "Clutch Bag", "$30000", "2"),
+				new Recipe("clutchBlue.png", "Clutch Blue Bag", "$30000", "3"),
+				new Recipe("weekender.png", "Weekender Bag", "$40000", "4"),
+				new Recipe("weekenderBlack.png", "Weekender Black Bag", "$50000", "5"),
+				new Recipe("messengerbag.png", "Messenger Bag", "$32000", "6"),
+				new Recipe("backpack.png", "Back Pack", "$60000", "7"),
+				new Recipe("documentholder.png", "Document Holder", "$70000", "8")
 			};
 		}
 
@@ -46,14 +46,14 @@ namespace SHOPSTYLE
 				default:
 					this.Recipes = new ObservableCollection<Recipe>()
 					{
-						new Recipe("original.png", "Leather Bag", "$20000", "bag"),
-						new Recipe("clutch.png", "Clutch Bag", "$30000", "bag"),
-						new Recipe("clutchBlue.png", "Clutch Blue Bag", "$30000", "bag"),
-						new Recipe("weekender.png", "Weekender Bag", "$40000", "bag"),
-						new Recipe("weekenderBlack.png", "Weekender Black Bag", "$50000", "bag"),
-						new Recipe("messengerbag.png", "Messenger Bag", "$32000", "bag"),
-						new Recipe("backpack.png", "Back Pack", "$60000", "bah"),
-						new Recipe("documentholder.png", "Document Holder", "$70000", "bag")
+						new Recipe("original.png", "Leather Bag", "$20000", "1"),
+						new Recipe("clutch.png", "Clutch Bag", "$30000", "2"),
+						new Recipe("clutchBlue.png", "Clutch Blue Bag", "$30000", "3"),
+						new Recipe("weekender.png", "Weekender Bag", "$40000", "4"),
+						new Recipe("weekenderBlack.png", "Weekender Black Bag", "$50000", "5"),
+						new Recipe("messengerbag.png", "Messenger Bag", "$32000", "6"),
+						new Recipe("backpack.png", "Back Pack", "$60000", "7"),
+						new Recipe("documentholder.png", "Document Holder", "$70000", "8")
 					};
 					break;
 			}
